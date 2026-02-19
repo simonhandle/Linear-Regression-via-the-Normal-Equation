@@ -1,0 +1,32 @@
+# --- Python Environments ---
+.venv/
+venv/
+env/
+ENV/
+bin/
+lib/
+include/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+# Falls du große Datenmengen in Notebooks speicherst:
+# .virtual_documents/
+
+# --- Python Cache & Kompilate ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Distribution / Build ---
+dist/
+build/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
