@@ -6,7 +6,7 @@ class LinearRegression:
         y = np.array(y)
 
         X = np.array(X)
-        X = np.insert(X,0,1,axis=1)
+        X = np.insert(X,0,1,axis=1) # Add the first dimension with value 1 to account for the intercept
 
         X_T = X.T
         X_T_y = X_T @ y
