@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linear-regression"
+version = "0.1.0"
+description = "My linear regression implementation via the normal equation"
+authors = [
+    { name = "Simon Handle" }
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
