@@ -10,10 +10,8 @@ include/
 # --- Jupyter Notebooks ---
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
-# Falls du große Datenmengen in Notebooks speicherst:
-# .virtual_documents/
 
-# --- Python Cache & Kompilate ---
+# --- Python Cache ---
 __pycache__/
 *.py[cod]
 *$py.class
