@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 ### 4. Open the Demo
 ```bash
-jupyter notebook notebooks/linear_regression_demo.ipynb
+jupyter notebook notebooks/example.ipynb
 ```
 
 
